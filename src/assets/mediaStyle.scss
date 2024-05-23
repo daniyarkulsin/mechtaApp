@@ -1,0 +1,143 @@
+@media (max-width: 320px) {
+  .delivery__container {
+    display: block;
+    .delivery__content-left {
+      max-width: 280px;
+      width: 100%;
+      margin: 20px 25px 0 25px;
+      padding: 0;
+    }
+    .delivery__content-right {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 50px 50px 0 0;
+    }
+  }
+
+  .delivery__header {
+    .delivery__header-logo {
+      margin-bottom: 50px;
+    }
+    .delivery__header-text {
+      margin-bottom: 40px;
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 16px;
+        max-width: 210px;
+      }
+    }
+  }
+
+  .delivery__form-container {
+    max-height: 50px;
+    margin-bottom: 40px;
+    button {
+      font-size: 16px;
+      max-height: 50px;
+      min-width: 78px;
+    }
+    .delivery__form {
+      input {
+        width: 180px;
+        padding-left: 20px;
+        &::placeholder {
+          font-size: 16px;
+        }
+      }
+    }
+    span {
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .delivery__cityList {
+    h3 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .delivery__cityList-inner {
+      max-width: 270px;
+      .delivery__cityList-city {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .delivery__footer {
+    flex-direction: column-reverse;
+    align-items: start;
+    position: absolute;
+    bottom: -600px;
+    img {
+      margin-bottom: 20px;
+    }
+    h5 {
+      margin-bottom: 20px;
+    }
+  }
+
+  .delivery__order-form {
+    position: static;
+    z-index: 3;
+    position: relative;
+    max-height: 606px;
+    .delivery__order-label {
+      max-width: 270px;
+      height: 172px;
+      .delivery__order-inner {
+        display: flex;
+        margin: 20px;
+        h2 {
+          font-size: 24px;
+        }
+        h3 {
+          font-size: 32px;
+        }
+      }
+    }
+    img {
+      max-width: 84px;
+      margin-right: 1rem;
+    }
+    .active {
+      &::after {
+        content: '';
+        max-width: 40px;
+      }
+    }
+  }
+
+  .delivery__carContent {
+    position: relative;
+    h2 {
+      line-height: 42.19px;
+      font-size: 36px;
+      max-width: 122px;
+      right: 10vw;
+      top: 2.5vh;
+    }
+    .img1 {
+      max-width: 188px;
+      z-index: 3;
+      right: 25vw;
+      top: 8vh;
+    }
+    .img2 {
+      z-index: 2;
+      right: 10vw;
+      top: 8.5vh;
+    }
+    .img3 {
+      z-index: 1;
+      max-width: 319px;
+      max-height: 286px;
+      right: 10vw;
+      top: 2.5vh;
+    }
+  }
+}
